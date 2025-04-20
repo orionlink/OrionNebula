@@ -3,7 +3,7 @@
 * @email: orionlink@163.com
 * @date: 2025/4/20 19:40
 * @version: 1.0
-* @description:
+* @description: 时间工具类
 ********************************************************************************/
 
 #ifndef BASE_TTIME_H
