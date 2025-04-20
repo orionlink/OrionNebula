@@ -1,0 +1,61 @@
+# --- CLion IDE 相关 ---
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-profile/
+
+# --- 编译生成文件 ---
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 对象文件和静态/动态库
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.pdb
+
+# --- CMake 生成文件 ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+*.cmake
+
+# --- 临时文件和日志 ---
+*.log
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+
+# --- 测试相关 ---
+*.gcda
+*.gcno
+*.gcov
+
+# --- 包管理和依赖 ---
+deps/
+third_party/
+build/
+.vscode/  # 如果同时使用 VSCode
+
+# --- macOS 系统文件 ---
+.DS_Store
+._*
+
+# --- Windows 系统文件 ---
+Thumbs.db
